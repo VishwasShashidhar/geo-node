@@ -1,27 +1,28 @@
 {
-    "name": "geo-node",
-    "version": "2.0.0",
-    "description": "A set of APIs to provide geo details for various purposes.",
-    "main": "index.js",
-    "scripts": {        
-        "test": "jest --verbose --testPathPattern test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/VishwasShashidhar/geo-node.git"
-    },
-    "author": "Vishwas Shashidhar <ivishwas.s@gmail.com> (https://github.com/VishwasShashidhar)",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/VishwasShashidhar/geo-node/issues"
-    },
-    "homepage": "https://github.com/VishwasShashidhar/geo-node#readme",
-    "devDependencies": {
-        "eslint": "^3.16.1",
-        "eslint-config-airbnb": "^14.1.0",
-        "jest": "^21.0.1"
-    },
-    "dependencies": {
-        "underscore": "^1.8.3"
-    }
+  "name": "geo-node",
+  "version": "2.1.0",
+  "description": "A set of APIs to provide geo details for various purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --testPathPattern test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishwasShashidhar/geo-node.git"
+  },
+  "author": "Vishwas Shashidhar <ivishwas.s@gmail.com> (https://github.com/VishwasShashidhar)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VishwasShashidhar/geo-node/issues"
+  },
+  "homepage": "https://github.com/VishwasShashidhar/geo-node#readme",
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "jest": "^21.0.1"
+  },
+  "dependencies": {
+    "string-similarity": "^1.2.0",
+    "underscore": "^1.8.3"
+  }
 }
