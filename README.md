@@ -13,12 +13,12 @@ To help people get geo specific information using javascript. There is hardly an
 - Support for getting country details
 - Support for getting region details
 
-## 2.1.0
+## 2.1.1
 - Support for like search
 
 # Like Search
 
-With version 2.1.0, we support likewise search. There are a lot of cases where in there are spelling issues. So, we use the beautiful [string-similarity](https://www.npmjs.com/package/string-similarity) npm package to get the best match and find that in our data.
+With version 2.1.1, we support likewise search. There are a lot of cases where in there are spelling issues. So, we use the beautiful [string-similarity](https://www.npmjs.com/package/string-similarity) npm package to get the best match and find that in our data.
 
 For example, if the region name is "Andhra Pradesh" and we've passed in "Andra Pradesh", we get the appropriate result.
 
