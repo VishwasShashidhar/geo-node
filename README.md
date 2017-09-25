@@ -7,6 +7,25 @@ To help people get geo specific information using javascript. There is hardly an
 # Installation
 `npm install geo-node`
 
+# Release Notes
+
+## 2.0.0
+- Support for getting country details
+- Support for getting region details
+
+## 2.1.0
+- Support for like search
+
+# Like Search
+
+With version 2.1.0, we support likewise search. There are a lot of cases where in there are spelling issues. So, we use the beautiful [string-similarity](https://www.npmjs.com/package/string-similarity) npm package to get the best match and find that in our data.
+
+For example, if the region name is "Andhra Pradesh" and we've passed in "Andra Pradesh", we get the appropriate result.
+
+This is supported both for country and region.
+
+Note: Currently, the best match is only considered if the match rating is greater than 0.5
+
 # API Details
 Currently, the API supports getting countries (251 of them) and regions (only India at this point, will add more data in the future)
 
@@ -36,7 +55,7 @@ console.log(country.name);
 ```
 const geonode = require('geo-node');
 
-const region = geonode.find.country("KA");
+const region = geonode.find.region("KA");
 console.log(region.name);
 
 ```
@@ -45,7 +64,7 @@ console.log(region.name);
 ```
 const geonode = require('geo-node');
 
-const region = geonode.find.country("karnataka");
+const region = geonode.find.region("karnataka");
 console.log(region.name);
 
 ```
